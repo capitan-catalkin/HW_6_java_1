@@ -16,6 +16,11 @@ public class Main {
             char charS = '\u0000';
             String str = "Hello";
 
+            System.out.println("shortN - longN = " + (shortN-longN));
+            System.out.println("shortN * longN = " + (shortN * longN));
+            System.out.println("shortN / longN = " + (shortN / longN));
+            System.out.println("shortN % longN = " + (shortN % longN));
+
             System.out.println("Результат переполнения byte: " + (byte) (byteM + 1));;
             System.out.println("Результат переполнения int: " + (intM + 1));
 
