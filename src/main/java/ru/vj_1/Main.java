@@ -21,7 +21,7 @@ public class Main {
             System.out.println("shortN / longN = " + (shortN / longN));
             System.out.println("shortN % longN = " + (shortN % longN));
 
-            System.out.println("Результат переполнения byte: " + (byte) (byteM + 1));;
+            System.out.println("Результат переполнения byte: " + (byte) (byteM + 1));
             System.out.println("Результат переполнения int: " + (intM + 1));
 
             if (shortN >= 327 && longN ==30){
